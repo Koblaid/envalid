@@ -7,6 +7,7 @@
     "node": ">=6"
   },
   "engineStrict": true,
+  "bin": { "envalid-write-env-file" : "bin/envalid-write-env-file.js" },
   "scripts": {
     "lint": "eslint index.js tests",
     "test": "painless -r spec tests/*.js",

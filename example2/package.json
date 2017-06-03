@@ -1,0 +1,15 @@
+{
+  "name": "example2",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "envalid": "file:.."
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "write-env-file": "envalid-write-env-file envSchema.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
